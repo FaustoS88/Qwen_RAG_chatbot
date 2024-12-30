@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-fileupload": "^1.5.1",
+    "node-fetch": "^3.3.2",
+    "pdfjs-dist": "^2.16.105"
+  }
+}

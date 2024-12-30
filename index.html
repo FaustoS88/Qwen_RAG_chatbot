@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced AI Chatbot with GLHF</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+<div class="chat-container">
+    <div class="chat-header">
+        <h1>Qwen</h1>
+        <button id="settings-btn" class="settings-icon">⚙️</button>
+    </div>
+    <div class="chat-messages" id="chat-messages"></div>
+</div>
+<div class="chat-input">
+    <input type="text" id="user-input" placeholder="Type a message...">
+    <button id="send-btn">Send</button>
+    <input type="file" id="file-input" accept=".pdf" style="display: none;">
+    <label for="file-input" class="clipboard-icon" title="Upload PDF">📋</label>
+</div>
+<div class="settings-modal" id="settings-modal" style="display: none;">
+    <div class="modal-content">
+        <span class="close-btn" id="close-btn">&times;</span>
+        <h2>Settings</h2>
+        <label for="api-key">GLHF API Key:</label>
+        <input type="text" id="api-key" placeholder="Enter your GLHF API key">
+        <button id="save-settings">Save</button>
+    </div>
+</div>
+        <div class="debug-console" id="debug-console">
+            <h2>Debug Console</h2>
+            <pre id="debug-output"></pre>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@latest/build/pdf.min.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
