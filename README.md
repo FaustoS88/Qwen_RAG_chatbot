@@ -12,7 +12,7 @@ This project implements a web-based chatbot interface using the Qwen 2.5 languag
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
+git clone https://github.com/FaustoS88/Qwen_RAG_chatbot
 cd ai_chatbotQwen2.5experiment
 ```
 
